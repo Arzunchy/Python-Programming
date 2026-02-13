@@ -23,5 +23,7 @@ y=False
 print(x or y)
 
 #IN NOT operators returns opposite if true returns false 
-x=
+x=10
+y=5
+print(not true )
 
