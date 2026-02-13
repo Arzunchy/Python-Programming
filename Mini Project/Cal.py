@@ -1,24 +1,24 @@
-print("Simple Calculator")
-print("Choose operation: +, -, *, /")
+#SIMPLE CALCULATOR FOR USER
 
-operation = input("Enter operation: ")
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+operation=input("choose choice:(+,-,*,/)")
+num1=float(input("enter first choice : "))
+num2=float(input("enter second choice : "))
 
 if operation == "+":
     result = num1 + num2
-    print("Result:", result)
+    print(result)
 elif operation == "-":
     result = num1 - num2
-    print("Result:", result)
+    print(result)
 elif operation == "*":
     result = num1 * num2
-    print("Result:", result)
+    print(result)
 elif operation == "/":
-    if num2 != 0:
+    if num2 !=0:
         result = num1 / num2
-        print("Result:", result)
+        print(result)
     else:
-        print("Error: Division by zero")
+        print("not divisible :")
+
 else:
-    print("Invalid operation")
+    print("invalid number")              
