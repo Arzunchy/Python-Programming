@@ -15,7 +15,7 @@ print(str.upper)
 print(str.lower)
 
 #Replace substring
-print(str.repla2ce("world","python"))
+print(str.replace("world","python"))
 
 #Startswith find starting point like
 print(str.startswith("he")) #returns (true) coz it starts with he
