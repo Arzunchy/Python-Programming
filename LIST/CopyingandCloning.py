@@ -1,6 +1,11 @@
 #SHALLOW COPY (WHICH IS CHANGE SHARED INNER LIST)
 import copy
-list1=[1,2,3,4,5]
+list1=[[1,2,3],[4,5]]
 list2=copy.copy(list1)
-list1[1]
-print
+list1[0][0]=20
+print(list1)
+
+
+
+#DEEP Copying
+

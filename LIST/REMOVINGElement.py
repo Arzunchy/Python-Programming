@@ -17,7 +17,9 @@ print(numbers)
 #DELETE
 numbers=[1,2,3,4,5]
 del numbers[0]
+print(numbers)
 
 #CLEAR for remove all elements
+numbers=[1,2,3,4,5]
 numbers.clear() 
-
+print(numbers)
