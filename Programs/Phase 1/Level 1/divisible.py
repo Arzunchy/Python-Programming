@@ -1,7 +1,6 @@
+a =int(input("Enter the number: "))
 
-a=5
-
-if a % 1 ==0:
-    print("divisible")
+if a % 5 == 0:
+    print("Divisible")
 else:
-    print("not divisible")    
+    print("Not divisible")    
