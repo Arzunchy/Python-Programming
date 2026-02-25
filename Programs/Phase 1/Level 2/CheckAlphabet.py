@@ -6,11 +6,12 @@ elif ch in ("nopqrstuvwxyz"):
     print(F'It lies between n to z')
 else:
     print(F'No alphabets lies') 
+
     
 
 
 #Another way with ((Range Checking method)) 
-ch=input("Enter the Charcater: ").upper()
+ch=input("Enter the Character: ").upper()
 
 if 'A' <= ch <= 'M':
     print(F'Lies between A to M')
