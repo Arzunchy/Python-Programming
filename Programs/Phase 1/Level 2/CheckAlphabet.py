@@ -1,19 +1,20 @@
-ch=input("Enter the Character: ")
+ch=input("Enter the Character: ").lower()
 
 if ch in ("abcdefghijklm"):
-    print(F'It Lies Between a to m')
+    print(F'It lies between a to m')
 elif ch in ("nopqrstuvwxyz"):
-    print(F'It Lies Between n to z')
+    print(F'It lies between n to z')
 else:
-    print(F'No Alphabets Lies') 
+    print(F'No alphabets lies') 
+    
 
 
 #Another way with ((Range Checking method)) 
-ch=input("Enter the Charcater: ")
+ch=input("Enter the Charcater: ").upper()
 
 if 'A' <= ch <= 'M':
-    print(F'Lies Between A to M')
+    print(F'Lies between A to M')
 elif 'N' <= ch <= 'Z':
-    print(F'Lies Between N to Z')
+    print(F'Lies between N to Z')
 else:
-    print(F'No Character Lies ')      
+    print(F'No character lies ')      
