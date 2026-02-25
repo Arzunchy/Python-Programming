@@ -1,7 +1,9 @@
 # Brute Force Method
-a, b, c = map(int, input("Enter three sides: "))
+a = int( input("Enter first sides: "))
+b = int(input("Enter second sides: "))
+c = int(input("Enter third sides: ")) 
 
-if a + b > c and a + c > b and b + c > a:
+if a+b > c and a+c >b and b+c >a:
     print("Valid Triangle")
     if a == b and b == c:
         print("Equilateral")
