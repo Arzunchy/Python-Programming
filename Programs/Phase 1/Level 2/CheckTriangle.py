@@ -3,7 +3,8 @@ a = int( input("Enter first sides: "))
 b = int(input("Enter second sides: "))
 c = int(input("Enter third sides: ")) 
 
-if a+b > c and a+c >b and b+c >a:
+   #((for not  negative sides )) 
+if a > 0 and b > 0 and c > 0 and (a+b > c and a+c >b and b+c >a):
     print("Valid Triangle")
     if a == b and b == c:
         print("Equilateral")
