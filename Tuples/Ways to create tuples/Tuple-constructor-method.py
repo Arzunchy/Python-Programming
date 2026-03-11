@@ -1,5 +1,5 @@
 #From list
-num=tuple([1,2,3,4,5])
+num=tuple([1,2,3,4])
 print(num)
 
 #From string
