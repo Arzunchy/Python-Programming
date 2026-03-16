@@ -1,3 +1,13 @@
-x = "5"
+"""x = "5"
 z = 10
-print (x * z)
+print (x * z)"""
+
+
+"""def fun(x=[]):
+    x.append(1)
+    return x
+print(fun(),fun(),fun())"""
+
+x=[1,2,3]
+x.append([4,5])
+print(len(x))
