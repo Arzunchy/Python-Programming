@@ -21,6 +21,7 @@ print(d)
 """
 
 d.clear    #empty dictionary -remove all elements from dictionary
-"""output
+"""
+output
 {}
 """
