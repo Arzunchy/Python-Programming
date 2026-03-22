@@ -11,7 +11,7 @@ print(len(nums))
 values = [2,2,2,3,4,2]
 for v in values[:]:
     if v != 2:
-        values.remove(v)
+        values.remove(2)
     print(values)    
 
 #reverse string
