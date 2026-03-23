@@ -23,6 +23,11 @@ print(a,b,c)
 """"output
 a b c
 """
+x=[[]]*3
+x[0].append('a')
+x[1].append('b')
+x[2].append('c')
+print(x)
 
 
 
