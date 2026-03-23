@@ -1,16 +1,25 @@
-nums=[1,2,3,4,5]
+nums=[10,20,30,40,50]
 nums[0]=10
 nums[-1]=50
 
 #ADDING ELEMENTS
 #APPEND
-numbers=[1,2,3,4,5]
-numbers.append(6)
+num=[1,2,3,4,5]
+num.append(6)
+print(num)
 
 #INSERT
-numbers=[10,20,30]
-numbers.insert(2,40)
+num=[10,20,30]
+num.insert(2,40)
+print(num)
+""""output
+[10, 20, 40, 30]
+"""
 
 #EXTEND
-numbers=[110,20,30]
-numbers.extend([50,60])
+num=[10,20,30]
+num.extend([50,60])
+print(num)
+""""output
+[10, 20, 30, 50, 60]
+"""
