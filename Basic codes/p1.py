@@ -29,5 +29,7 @@ x[1].append('b')
 x[2].append('c')
 print(x)
 
+x=[]
+
 
 
