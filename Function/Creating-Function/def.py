@@ -6,7 +6,8 @@ print(add())
 """
 def palindrome():
     s="madam"
-    return s == s[::-1]
+    s[::-1]
+    return s==s
 print(palindrome())
 
 
